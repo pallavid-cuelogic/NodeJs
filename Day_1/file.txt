@@ -1,2 +1,2 @@
-345353535358980980980
-
+Node.js includes fs module to access physical file system.
+The fs module is responsible for all the asynchronous or synchronous file I/O operations.
