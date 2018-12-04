@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Update Information</title>
+        <link rel="stylesheet" type="text/css" href="/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="heading">
+                <h2 >Update Information</h2>
+            </div>
+        </header>       
+        <div class="MainDiv">
+            <form action="/update" method="POST">
+                <div class="form-group">
+                    <label for="eid">Employee Id</label>
+                    <input type="text"  id="emp" placeholder="Enter Id" name="eid">
+                </div>
+                <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text"  id="fname" placeholder="Enter Name" name="fname">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text"  id="lname" placeholder="Enter LastName" name="lname">
+                </div>
+                <div class="form-group">
+                    <label for="salary">Salary</label>
+                    <input type="text" id="sal" placeholder="Enter Salary" name="salary">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>    
+    </body>
+</html>
